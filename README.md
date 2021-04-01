@@ -2,6 +2,7 @@
 
 ![npm](https://img.shields.io/npm/v/promise-queues)
 ![npm bundle size](https://img.shields.io/bundlephobia/min/promise-queues)
+[![CI](https://github.com/JoshArgent/PromiseQueues/actions/workflows/ci.yml/badge.svg)](https://github.com/JoshArgent/PromiseQueues/actions/workflows/ci.yml)
 
 A light-weight implementation of asynchronous worker queues using JS promises.
 
