@@ -13,7 +13,7 @@
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "Josh Argent",
-	"license": "ISC",
+	"license": "MIT",
 	"repository": "JoshArgent/PromiseQueues",
 	"devDependencies": {
 		"prettier": "^2.2.1"
