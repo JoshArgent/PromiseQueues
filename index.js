@@ -3,6 +3,8 @@ module.exports = async function promiseQueue(promises, numberWorkers) {
 		workers = [],
 		results = [];
 
+	if (numberWorkers <= 0) throw new Error('Need to use at least one worker.');
+
 	for (let i = 0; i < numberWorkers; i++) {
 		workers.push(worker(promises, results, amountOfWork));
 	}
