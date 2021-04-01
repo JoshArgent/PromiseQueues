@@ -10,12 +10,13 @@
 		"worker"
 	],
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "jest"
 	},
 	"author": "Josh Argent",
 	"license": "MIT",
 	"repository": "JoshArgent/PromiseQueues",
 	"devDependencies": {
+		"jest": "^26.6.3",
 		"prettier": "^2.2.1"
 	},
 	"prettier": {
