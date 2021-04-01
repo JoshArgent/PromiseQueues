@@ -14,6 +14,7 @@
 	},
 	"author": "Josh Argent",
 	"license": "ISC",
+	"repository": "JoshArgent/PromiseQueues",
 	"devDependencies": {
 		"prettier": "^2.2.1"
 	},
